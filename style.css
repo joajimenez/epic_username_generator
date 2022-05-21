@@ -36,13 +36,16 @@ button {
     cursor: pointer;
     padding: 5px 60px;
     border: solid 2px black;
-    background-color: orangered;
+    
 }
 
 button:hover{
     transform: translate(-7px, -7px);
     box-shadow: 3px 3px 0px 0px black;
-    
+}
+
+#english_button {
+    background-color: orangered;
 }
 
 #english_button:active{
