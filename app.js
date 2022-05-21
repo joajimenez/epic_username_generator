@@ -104,6 +104,7 @@ buttons.forEach((btn) => {
     let name;
     let adjective;
     let buttonId = event.target.id;
+    const usernameDisplay = document.getElementById('username_display');
 
     if (buttonId === 'button_english') {
       name =
@@ -115,6 +116,7 @@ buttons.forEach((btn) => {
         wordDictionary.englishAdjectives[
           Math.floor(Math.random() * wordDictionary.englishAdjectives.length)
         ];
+      usernameDisplay.innerText = `${adjective}${name.toLocaleLowerCase()}`;
     } else if (buttonId === 'button_spanish') {
       name =
         wordDictionary.spanishNames[
@@ -125,9 +127,7 @@ buttons.forEach((btn) => {
         wordDictionary.spanishAdjectives[
           Math.floor(Math.random() * wordDictionary.spanishAdjectives.length)
         ];
+      usernameDisplay.innerText = `${name}${adjective.toLocaleLowerCase()}`;
     }
-
-    const usernameDisplay = document.getElementById('username_display');
-    usernameDisplay.innerText = `${adjective}${name.toLocaleLowerCase()}`;
   });
 });
