@@ -34,9 +34,9 @@ button {
     border: 0;
 	outline: 0;
     cursor: pointer;
-    padding: 5px 60px;
+    padding: 8px 75px;
     border: solid 2px black;
-    
+    font-size: medium;
 }
 
 button:hover{
