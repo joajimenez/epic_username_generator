@@ -97,7 +97,7 @@ const wordDictionary = {
   ],
 };
 
-const buttons = document.querySelectorAll('button[id^=but]');
+const buttons = document.querySelectorAll('button');
 
 buttons.forEach((btn) => {
   btn.addEventListener('click', (event) => {
