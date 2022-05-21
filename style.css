@@ -44,25 +44,20 @@ button:hover{
     box-shadow: 3px 3px 0px 0px black;
 }
 
-#english_button {
+#button_english {
     background-color: orangered;
 }
 
-#english_button:active{
-    background-color: #42c1d6;
-    
-}
-
-#spanish_button {
+#button_english:active{
     background-color: #42c1d6;
 }
 
-#spanish_button:active{
+#button_spanish {
+    background-color: #42c1d6;
+}
+
+#button_spanish:active{
     background-color: orangered;
-}
-
-.hidden {
-    display: none;
 }
 
 strong {
